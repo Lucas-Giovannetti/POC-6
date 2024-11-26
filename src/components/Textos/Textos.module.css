@@ -1,0 +1,9 @@
+.parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+

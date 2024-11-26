@@ -1,0 +1,29 @@
+
+
+.cadeira{
+    flex-basis: 12%;
+    height: 70px;
+    background-color: var(--avaliable);
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+}
+.cadeira :disabled, .cadeira[disabled]{
+    background-color: var(--unavaliable);
+}
+.cadeira2{
+    flex-basis: 12%;
+    height: 70px;
+    background-color: var(--primary);
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+}
+.divCadeira{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}

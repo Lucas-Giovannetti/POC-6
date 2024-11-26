@@ -1,0 +1,36 @@
+.parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.telaScreen{
+    background-color: var(--unavaliable);
+    width: 100%;
+    height: 2em;
+}
+.child{
+    flex-basis: 50%;
+    text-align: center;
+    color: var(--unavaliable);
+}
+.child2{
+    flex-basis: 50%;
+   }
+@media only screen and (max-width: 600px) {
+   .child{
+    flex-basis: 100%;
+   }
+   .child2{
+    display: none;
+   }
+}

@@ -1,0 +1,16 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2em;
+}
+.btn{
+    background-color: var(--primary);
+    border-radius: 8px;
+    border: none;
+    height: 70px;
+    width: 250px;
+}
